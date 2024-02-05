@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 
 
 def get_heightmap(points, colors, bounds, pixel_size):
+    # from https://colab.research.google.com/drive/124TE4TsGYyrvduzeDclufyvwcc2qbbrE#scrollTo=eWUtvw1qZi_5
     """Get top-down (z-axis) orthographic heightmap image from 3D pointcloud.
     Args:
       points: HxWx3 float array of 3D points in world coordinates.
